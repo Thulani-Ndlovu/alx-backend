@@ -9,7 +9,7 @@ class LRUCache(BaseCaching):
     def __init__(self):
         '''Initialises caching'''
         super().__init__()
-        self.cache_data = OrderedDict
+        self.cache_data = OrderedDict()
 
     def put(self, key, item):
         '''
