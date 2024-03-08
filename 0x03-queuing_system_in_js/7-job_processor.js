@@ -18,7 +18,7 @@ const sendNotification = (phoneNumber, message, job, done) => {
     if (total === pending) {
       console.log(
         `sending notification to ${phoneNumber},`,
-        `with message: ${message}`;
+        `with message: ${message}`,
       );
     }
     --pending || done();
